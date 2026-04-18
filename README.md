@@ -4,7 +4,7 @@ A GPT-style language model built from scratch in PyTorch — written as a learni
 
 ## What This Is
 
-Most people interact with LLMs without knowing what's happening inside them. This project is an attempt to build one from first principles — no high-level abstractions, just PyTorch and math.
+This project is an attempt to build one from first principles — no high-level abstractions, just PyTorch and math.
 
 The model implements the core transformer architecture: tokenization, token embeddings, multi-head self-attention, feed-forward layers, residual connections, and a training loop with next-token prediction. It's trained on public domain mountaineering texts from Project Gutenberg.
 
